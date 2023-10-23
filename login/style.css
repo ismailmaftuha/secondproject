@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;png
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+
+body .form-login {
+    background-color: aliceblue;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 16px;
+} 
+
+body .form-login h3{
+    text-align: center;
+    font-size: large;
+} 
+
+body .form-login input{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+
+body .form-login p{
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+body .form-login p .link-lupa-pasword{
+    text-decoration: none;
+    color: rgb(68, 97, 98);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+body .form-login p .link-lupa-pasword:hover{
+    text-decoration: none;
+    color: rgb(57, 126, 128);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+body .form-login .TombolLogin{
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(38, 38, 229);
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: darksalmon;
+
+}
+
+body .form-login .Tomboldaftarakun{
+    width: 100%;
+    border: 0px;
+    border-radius: 50px;
+    background-color: cyan;
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+body .form-login .TombolLogin:hover{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    background-color: rgb(95, 116, 118);
+    border-radius: 50px;
+}
+
+body .form-login .Tomboldaftarakun:hover{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    background-color: rgb(95, 116, 118);
+    border-radius: 50px; 
+}
+
+body .form-login hr{
+    color: bisque;
+    background-color: antiquewhite;
+}
+
+body .form-login a .btn-google {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(35, 31, 59);
+    color: blanchedalmond;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+body .form-login .btn-google img {
+    width: 23px;
+    height: 23px;
+    margin-bottom: -7px;
+    margin-top: -19px;
+}
